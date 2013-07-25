@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="authentication">
+    <name>Virtuemart PayPal Authentication</name>
+    <author>Aaron A. Klick</author>
+    <creationDate>March 3, 2010</creationDate>
+    <copyright>(C) 2010 soeren - All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>aaronklick@vantagetechnic.com</authorEmail>
+    <authorUrl>www.vantagetechnic.com</authorUrl>
+    <version>1.5</version>
+    <description>Virtuemart PayPal Express Authentication</description>
+    <files>
+        <filename plugin="virtuemartpaypal">virtuemartpaypal.php</filename>
+    </files>
+    <params/>
+</install>

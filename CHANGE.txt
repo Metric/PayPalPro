@@ -1,0 +1,38 @@
+###Version 2.1 PayPalPro - 02-03-11
+Several Major Bug Fixes: Coupon discount is now applied properly
+						 Virtuemart credit card option no longer tries to send the user
+						 to PayPal Express.
+
+Additional: Item name on PayPal now includes attributes and SKU number.
+
+Known Issues: The shipping method name must use ASCII characters when using PayPal Express
+			  There is currently no fix for this, because PayPal mangles any special unicode
+			  characters when sent back through a return url (Even when the unicode is encoded for html / url).
+
+###Version 2.0.3 PayPalPro - 05-24-10
+Bug Fixes: Fixed a Javascript bug that did not allow IE to use the
+		   PayPal Express Button at the Payment Selection Screen.
+		   
+Additional: As requested a template variable has been added to allow
+            for the adding of the PayPal Express Button in shop.cart.tpl.php
+			
+			Please see the install page on how to add the variable to shop.cart.tpl.php
+			and remove the variable from basket_b2b.html.php & basket_b2c.html.php
+
+###Version 2.0.2 PayPalPro - 05-15-10
+Bug Fixes: Fixed an issue where the Pay Pal Express checkout was not properly
+           Using the Virtuemart Secure URL for the return URLS.
+
+Additional: Added a change log file to the zip
+            Added the license agreement to the zip.
+
+###Version 2.0.1 PayPalPro - 05-06-10
+Bug Fixes: Fixed the issue of the payment module not playing nice with other
+           payment modules. Previously only PayPalPro could be active and some
+           of the other payment modules would not be listed if you turned off
+           Direct Payment, or were using the Express Only version of PayPalPro.
+
+###Version 2.0.0 PayPalPro - 05-05-10
+Initial Release of 2.0.0
+
+v2.0.0 is considered a whole new product, because of the complete recode of the module.
